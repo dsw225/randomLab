@@ -14,12 +14,22 @@
         <div class="main-container">
             <h1 id="Title">Random Color Generator</h1>
             <div class="color-scheme">
-                <div class="color-box" id="color-box1"></div>
-                <div class="color-box" id="color-box2"></div> 
-                <div class="color-box" id="color-box3"></div> 
-            </div
-            <div id="button">
-                <button type="button" class="button" onclick="boxColor()">Generate!</button> 
+                <div class="color-info">
+                    <div class="color-box" id="color-box1"></div>
+                    <p>Hex Code: <span id="hex-val1"></span></p>
+                </div>
+                <div class="color-info">
+                    <div class="color-box" id="color-box2"></div> 
+                    <p id="hex-val2"></p>
+                </div>
+                <div class="color-info">
+                    <div class="color-box" id="color-box3"></div>
+                    <pid="hex-val3"></p> 
             </div>
+            <div> 
+                
+            </div>
+            <button type="button" id="button" onclick="boxColor()">Generate!</button> 
+        </div>   
     </body>
 </html>
