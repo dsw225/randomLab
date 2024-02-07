@@ -1,0 +1,18 @@
+:root {
+    --background-color: white;
+    --main-text-color: black;
+    --secondary-color: red;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: var(--background-color);
+    color: var(--main-text-color);
+    margin: 20px;
+  }
+
+.main-container{
+    
+}
