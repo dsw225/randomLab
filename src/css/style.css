@@ -14,5 +14,11 @@ body {
   }
 
 .main-container{
-    
+    max-width: 800px;
+}
+
+.color-box{
+    background-color: red;
+    width: 100px;
+    height:100px;
 }
