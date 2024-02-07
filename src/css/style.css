@@ -10,6 +10,7 @@ body {
     font-style: normal;
     background-color: var(--background-color);
     color: var(--main-text-color);
+    align-items: center; /* Idk how to align center */
     margin: 20px;
   }
 
@@ -17,8 +18,18 @@ body {
     max-width: 800px;
 }
 
-.color-box{
-    background-color: red;
-    width: 100px;
-    height:100px;
+.color-scheme {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+
+    .color-box{
+        background-color: aqua;
+        width: 200px;;
+        height:calc(100vh - 400px);
+        float: left;
+        margin: 20px;
+        overflow: hidden;
+    }
 }
+
