@@ -16,20 +16,37 @@ body {
 
 .main-container{
     max-width: 800px;
+    align-items: center; /* Idk how to align center */
 }
 
 .color-scheme {
     display: flex;
     flex-direction: row;
     align-content: center;
+    justify-content: space-between;
+    align-items: center stretch;
+    flex-grow: auto;
+    padding: 15px;
 
     .color-box{
         background-color: aqua;
-        width: 200px;;
-        height:calc(100vh - 400px);
-        float: left;
+        width: 200px;
+        height:calc(100vh - 300px);
+        float: center;
         margin: 20px;
         overflow: hidden;
+        
     }
 }
+.button{
+    background-color: white;
+    font-size:20px;
+    border-radius: 12px;
+    border: 2px solid grey;
+    display:flex;
+    align-content:center;
+}
 
+h1{
+    text-align: center;
+}
