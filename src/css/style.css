@@ -29,13 +29,16 @@ body {
     flex-grow: auto;
     padding: 15px;
 
-    .color-box{
-        background-color: lightgrey;
-        width: 200px;
-        height:calc(100vh - 300px);
-        float: center;
-        margin: 20px;
-        overflow: hidden;
+    .color-info {
+       
+        .color-box{
+            background-color: lightgrey;
+            width: 200px;
+            height:calc(100vh - 300px);
+            float: center;
+            margin: 20px;
+            overflow: hidden;
+        }
     }
 }
 #button{
